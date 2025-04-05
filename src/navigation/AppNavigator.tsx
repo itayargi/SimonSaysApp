@@ -34,21 +34,21 @@ const AppNavigator = () => {
         <Stack.Screen
           name={ScreenName.GameScreen}
           component={GameScreen}
-          options={({navigation}) => ({
+          options={() => ({
             title: Strings.screenGameScreensTitle,
             headerBackTitle: '',
             headerTitleAlign: 'center',
-            headerLeft: () => <CustomBackButton />,
+            headerLeft: CustomBackButton,
           })}
         />
         <Stack.Screen
           name={ScreenName.ResultsScreen}
           component={ResultsScreen}
-          options={({navigation}) => ({
+          options={() => ({
             title: Strings.screenResultsTitle,
             headerBackTitle: '',
             headerTitleAlign: 'center',
-            headerLeft: () => <CustomBackButton />,
+            headerLeft: CustomBackButton,
           })}
         />
         <Stack.Screen
@@ -57,7 +57,7 @@ const AppNavigator = () => {
           options={{
             title: Strings.screenHomeScreenTitle,
             headerTitleAlign: 'center',
-            headerLeft: () => null, // Remove the back button
+            headerLeft: () => null,
           }}
         />
       </Stack.Navigator>

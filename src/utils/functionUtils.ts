@@ -5,3 +5,6 @@ export const responsiveFontSize = (size: number) => {
   const scale = sizes.PageWidth / 375; // 375px זה רוחב סטנדרטי של אייפון X
   return Math.round(PixelRatio.roundToNearestPixel(size * scale * 0.9));
 };
+export const logDev: (...args: any) => void = (...args) => {
+    __DEV__ && console.log(...args);
+  };

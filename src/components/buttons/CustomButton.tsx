@@ -15,7 +15,7 @@ import CustomText from '../text/CustomText';
 interface CustomButtonProps extends PressableProps {
   title?: string;
   onPress: (event: GestureResponderEvent) => void;
-  style?: StyleProp<ViewStyle>; // Renamed from containerStyle to style
+  style?: StyleProp<ViewStyle>;
   textStyle?: TextStyle;
   disabled?: boolean;
   children?: React.ReactNode;
@@ -53,7 +53,6 @@ const CustomButton: React.FC<CustomButtonProps> = ({
     </Pressable>
   );
 };
-
 
 const styles = StyleSheet.create({
   pressed: {

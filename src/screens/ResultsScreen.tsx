@@ -3,7 +3,7 @@ import {FlatList, StyleSheet, View} from 'react-native';
 import {useSelector} from 'react-redux';
 import CustomButton from '../components/buttons/CustomButton';
 import CustomText from '../components/text/CustomText';
-import {navigate, resetAndNavigate, resetToHomeAndNavigate} from '../navigation/navigationRef';
+import {navigate} from '../navigation/navigationRef';
 import {ScreenName} from '../navigation/screenNames';
 import {RootState} from '../store';
 import Strings from '../utils/strings';
@@ -67,7 +67,6 @@ const ResultsScreen: React.FC = () => {
     </View>
   );
 };
-
 
 const styles = StyleSheet.create({
   container: {
