@@ -1,0 +1,15 @@
+export const colors = {
+  background: '#F2F2F2',
+  primary: '#007AFF',
+  white: '#FFFFFF',
+  textPrimary: '#333333',
+  textSecondary: '#666666',
+  shadow: '#000000',
+  modalBackground: 'rgba(0,0,0,0.6)',
+  inputBorder: '#dddddd',
+  success: '#28a745',
+  red:'red',
+  blue:'blue',
+  yellow:'yellow',
+  green:'green',
+};

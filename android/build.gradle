@@ -12,9 +12,28 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath("com.android.tools.build:gradle")
+        classpath("com.android.tools.build:gradle:8.6.0")
         classpath("com.facebook.react:react-native-gradle-plugin")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${kotlinVersion}")
+    }
+    // Force the use of AGP 8.6.0 for all configurations
+    configurations.all {
+        resolutionStrategy {
+            force 'com.android.tools.build:gradle:8.6.0'
+        }
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    // Also force AGP 8.6.0 in all subprojects
+    configurations.all {
+        resolutionStrategy {
+            force 'com.android.tools.build:gradle:8.6.0'
+        }
     }
 }
 

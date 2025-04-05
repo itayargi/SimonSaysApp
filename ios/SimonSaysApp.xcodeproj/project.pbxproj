@@ -9,9 +9,18 @@
 /* Begin PBXBuildFile section */
 		0C80B921A6F3F58F76C31292 /* libPods-SimonSaysApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-SimonSaysApp.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2F319312A7BB404CAEC561B1 /* button4.wav in Resources */ = {isa = PBXBuildFile; fileRef = D8B6153778914B2DB9322F6D /* button4.wav */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		82B6D6E37F43481FACECE0E6 /* incorrect.wav in Resources */ = {isa = PBXBuildFile; fileRef = 82D5FA6A9E524C399455844E /* incorrect.wav */; };
+		8BC1C6100EFD4BB0B56E57C1 /* PloniMLv2AAA-D-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B12F9FEAD5C44ACD924DC91F /* PloniMLv2AAA-D-Bold.otf */; };
+		A221E6FC602B4192AD19F60C /* button1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 321E610226604977BAC802CF /* button1.wav */; };
 		B0BBC21DD49C16DBE8492139 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		B22EE15342744B5F8EF82F49 /* PloniMLv2AAA-U-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F5B8AF42BFD047C28C2CB98C /* PloniMLv2AAA-U-Bold.otf */; };
+		B3671DB8D71846708B440195 /* button3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A9031514255406EAD96893D /* button3.wav */; };
+		B9AC69F157A142BA9991E82C /* correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = D1BFB37556434175895C20B6 /* correct.wav */; };
+		D9FFFC9B33604DBCA4C36011 /* PloniMLv2AAA-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F16E4DA556AF470EA929FB90 /* PloniMLv2AAA-Regular.otf */; };
+		DE07C693440C412BB85984F5 /* button2.wav in Resources */ = {isa = PBXBuildFile; fileRef = BAC5F75DB03D450195794565 /* button2.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,12 +28,21 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SimonSaysApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SimonSaysApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = SimonSaysApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		1A9031514255406EAD96893D /* button3.wav */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = button3.wav; path = ../src/assets/sounds/button3.wav; sourceTree = "<group>"; };
+		321E610226604977BAC802CF /* button1.wav */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = button1.wav; path = ../src/assets/sounds/button1.wav; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-SimonSaysApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimonSaysApp.debug.xcconfig"; path = "Target Support Files/Pods-SimonSaysApp/Pods-SimonSaysApp.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-SimonSaysApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimonSaysApp.release.xcconfig"; path = "Target Support Files/Pods-SimonSaysApp/Pods-SimonSaysApp.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-SimonSaysApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimonSaysApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SimonSaysApp/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SimonSaysApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82D5FA6A9E524C399455844E /* incorrect.wav */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = incorrect.wav; path = ../src/assets/sounds/incorrect.wav; sourceTree = "<group>"; };
+		B12F9FEAD5C44ACD924DC91F /* PloniMLv2AAA-D-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PloniMLv2AAA-D-Bold.otf"; path = "../src/assets/fonts/PloniMLv2AAA-D-Bold.otf"; sourceTree = "<group>"; };
+		BAC5F75DB03D450195794565 /* button2.wav */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = button2.wav; path = ../src/assets/sounds/button2.wav; sourceTree = "<group>"; };
+		D1BFB37556434175895C20B6 /* correct.wav */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = correct.wav; path = ../src/assets/sounds/correct.wav; sourceTree = "<group>"; };
+		D8B6153778914B2DB9322F6D /* button4.wav */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = button4.wav; path = ../src/assets/sounds/button4.wav; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F16E4DA556AF470EA929FB90 /* PloniMLv2AAA-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PloniMLv2AAA-Regular.otf"; path = "../src/assets/fonts/PloniMLv2AAA-Regular.otf"; sourceTree = "<group>"; };
+		F5B8AF42BFD047C28C2CB98C /* PloniMLv2AAA-U-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PloniMLv2AAA-U-Bold.otf"; path = "../src/assets/fonts/PloniMLv2AAA-U-Bold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8061137523154CE78E63AA3D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B12F9FEAD5C44ACD924DC91F /* PloniMLv2AAA-D-Bold.otf */,
+				F16E4DA556AF470EA929FB90 /* PloniMLv2AAA-Regular.otf */,
+				F5B8AF42BFD047C28C2CB98C /* PloniMLv2AAA-U-Bold.otf */,
+				321E610226604977BAC802CF /* button1.wav */,
+				BAC5F75DB03D450195794565 /* button2.wav */,
+				1A9031514255406EAD96893D /* button3.wav */,
+				D8B6153778914B2DB9322F6D /* button4.wav */,
+				D1BFB37556434175895C20B6 /* correct.wav */,
+				82D5FA6A9E524C399455844E /* incorrect.wav */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +109,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				8061137523154CE78E63AA3D /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -161,6 +196,15 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				B0BBC21DD49C16DBE8492139 /* PrivacyInfo.xcprivacy in Resources */,
+				8BC1C6100EFD4BB0B56E57C1 /* PloniMLv2AAA-D-Bold.otf in Resources */,
+				D9FFFC9B33604DBCA4C36011 /* PloniMLv2AAA-Regular.otf in Resources */,
+				B22EE15342744B5F8EF82F49 /* PloniMLv2AAA-U-Bold.otf in Resources */,
+				A221E6FC602B4192AD19F60C /* button1.wav in Resources */,
+				DE07C693440C412BB85984F5 /* button2.wav in Resources */,
+				B3671DB8D71846708B440195 /* button3.wav in Resources */,
+				2F319312A7BB404CAEC561B1 /* button4.wav in Resources */,
+				B9AC69F157A142BA9991E82C /* correct.wav in Resources */,
+				82B6D6E37F43481FACECE0E6 /* incorrect.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

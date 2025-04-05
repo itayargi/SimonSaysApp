@@ -1,0 +1,41 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/PloniMLv2AAA-D-Bold.otf",
+      "sha1": "239a9efa69e1c615ce627a5028ee684350bdadd8"
+    },
+    {
+      "path": "src/assets/fonts/PloniMLv2AAA-Regular.otf",
+      "sha1": "52feabf5c4ff8cdabef086e08edf205b6a883998"
+    },
+    {
+      "path": "src/assets/fonts/PloniMLv2AAA-U-Bold.otf",
+      "sha1": "84a397e590c67d9f43392be4aa49c66e7ddb7482"
+    },
+    {
+      "path": "src/assets/sounds/button1.wav",
+      "sha1": "e5946cf9f44efde14d4ebd471d166620ae04f2e9"
+    },
+    {
+      "path": "src/assets/sounds/button2.wav",
+      "sha1": "ae6374f9bcba7643a665e3fd5fd8fbdd5d048627"
+    },
+    {
+      "path": "src/assets/sounds/button3.wav",
+      "sha1": "a577d38fda7b4ce6b871134cc9c8c56689da6b73"
+    },
+    {
+      "path": "src/assets/sounds/button4.wav",
+      "sha1": "21cd92cfd34e1f6f43cc7c44a2299652f759336f"
+    },
+    {
+      "path": "src/assets/sounds/correct.wav",
+      "sha1": "cdd25937beb185ffe1d99cbddf5abfeec5a056ec"
+    },
+    {
+      "path": "src/assets/sounds/incorrect.wav",
+      "sha1": "9a61670767bf5242de1a020470530f496b3f772c"
+    }
+  ]
+}
