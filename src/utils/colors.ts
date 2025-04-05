@@ -8,8 +8,9 @@ export const colors = {
   modalBackground: 'rgba(0,0,0,0.6)',
   inputBorder: '#dddddd',
   success: '#28a745',
-  red:'red',
-  blue:'blue',
-  yellow:'yellow',
-  green:'green',
+  red: 'red',
+  blue: 'blue',
+  yellow: 'yellow',
+  green: 'green',
+  black: 'black',
 };
