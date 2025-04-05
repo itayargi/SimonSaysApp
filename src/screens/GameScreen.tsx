@@ -224,8 +224,15 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   activeButton: {
-    borderWidth: 5,
-    borderColor: themeColors.white,
+    borderWidth: 4,
+    borderColor: themeColors.black,
+    transform: [{scale: 1.1}],
+    shadowColor: '#000',
+    shadowOffset: {width: 0, height: 4},
+    shadowOpacity: 0.5,
+    shadowRadius: 4,
+    elevation: 5,
+    overflow: 'hidden',
   },
   modalContainer: {
     flex: 1,
