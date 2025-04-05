@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   explanation: {
-    fontSize: 17,
+    fontSize: 18,
     color: '#444',
     textAlign: 'center',
   },

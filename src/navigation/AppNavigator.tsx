@@ -1,16 +1,26 @@
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import React from 'react';
+import {StyleSheet, Text} from 'react-native';
+import CustomButton from '../components/buttons/CustomButton';
+import GameScreen from '../screens/GameScreen';
 import HomeScreen from '../screens/HomeScreen';
+import ResultsScreen from '../screens/ResultsScreen';
 import SplashScreen from '../screens/SplashScreen';
 import Strings from '../utils/strings';
 import {RootStackParamList} from '../utils/types';
-import {navigationRef} from './navigationRef';
+import {navigate, navigationRef} from './navigationRef';
 import {ScreenName} from './screenNames';
-import GameScreen from '../screens/GameScreen';
-import ResultsScreen from '../screens/ResultsScreen';
 
 const Stack = createStackNavigator<RootStackParamList>();
+
+const CustomBackButton = () => (
+  <CustomButton
+    style={styles.backButton}
+    onPress={() => navigate(ScreenName.HomeScreen)}>
+    <Text style={styles.backButtonText}>{'‹'}</Text>
+  </CustomButton>
+);
 
 const AppNavigator = () => {
   return (
@@ -24,21 +34,46 @@ const AppNavigator = () => {
         <Stack.Screen
           name={ScreenName.GameScreen}
           component={GameScreen}
-          options={{title: Strings.screenGameScreensTitle, headerBackTitle:''}}
+          options={({navigation}) => ({
+            title: Strings.screenGameScreensTitle,
+            headerBackTitle: '',
+            headerTitleAlign: 'center',
+            headerLeft: () => <CustomBackButton />,
+          })}
         />
         <Stack.Screen
           name={ScreenName.ResultsScreen}
           component={ResultsScreen}
-          options={{title: Strings.screenResultsTitle, headerBackTitle:''}}
+          options={({navigation}) => ({
+            title: Strings.screenResultsTitle,
+            headerBackTitle: '',
+            headerTitleAlign: 'center',
+            headerLeft: () => <CustomBackButton />,
+          })}
         />
         <Stack.Screen
           name={ScreenName.HomeScreen}
           component={HomeScreen}
-          options={{title: Strings.screenHomeScreenTitle}}
+          options={{
+            title: Strings.screenHomeScreenTitle,
+            headerTitleAlign: 'center',
+            headerLeft: () => null, // Remove the back button
+          }}
         />
       </Stack.Navigator>
     </NavigationContainer>
   );
 };
+
+const styles = StyleSheet.create({
+  backButton: {
+    marginLeft: 10,
+  },
+  backButtonText: {
+    fontSize: 34,
+    color: '#007AFF',
+    padding: 5,
+  },
+});
 
 export default AppNavigator;
