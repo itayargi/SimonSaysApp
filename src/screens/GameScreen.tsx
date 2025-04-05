@@ -23,12 +23,11 @@ import soundManager from '../utils/soundPlayer';
 import Strings from '../utils/strings';
 import {BOLD} from '../utils/fonts';
 import {colors as themeColors} from '../utils/colors';
+import {SimonColor} from '../utils/types';
 
-// Define SimonColor as one of the allowed keys from themeColors
-export type SimonColor = 'red' | 'green' | 'blue' | 'yellow';
 const simonColors: SimonColor[] = ['red', 'green', 'blue', 'yellow'];
 
-// Button positions for layout (consider centralizing these numbers if they come from a design system)
+// Button positions for layout
 const buttonPositions = [
   {top: 0, left: 85},
   {top: 85, left: 0},

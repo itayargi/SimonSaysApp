@@ -1,3 +1,4 @@
+import {StackNavigationProp} from '@react-navigation/stack';
 import {ScreenName} from '../navigation/screenNames';
 
 export type RootStackParamList = {
@@ -6,3 +7,10 @@ export type RootStackParamList = {
   [ScreenName.HomeScreen]: undefined;
   [ScreenName.ResultsScreen]: undefined;
 };
+export type SplashScreenNavigationProp = StackNavigationProp<
+  RootStackParamList,
+  ScreenName.Splash
+>;
+
+// Define SimonColor
+export type SimonColor = 'red' | 'green' | 'blue' | 'yellow';

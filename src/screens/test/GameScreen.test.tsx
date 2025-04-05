@@ -29,7 +29,6 @@ describe('GameScreen', () => {
     expect(getByText(Strings.newGameButton)).toBeTruthy();
 
     // Verify that the current score is rendered.
-    // This assumes Strings.currentScore contains a substring like "current score".
     expect(getByText(new RegExp(Strings.currentScore, 'i'))).toBeTruthy();
   });
 });

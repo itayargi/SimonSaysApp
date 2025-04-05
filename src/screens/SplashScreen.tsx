@@ -1,22 +1,15 @@
-import {StackNavigationProp} from '@react-navigation/stack';
 import React, {useEffect, useRef} from 'react';
-import {Animated, StyleSheet, View, ActivityIndicator} from 'react-native';
+import {ActivityIndicator, Animated, StyleSheet, View} from 'react-native';
 import {resetAndNavigate} from '../navigation/navigationRef';
 import {ScreenName} from '../navigation/screenNames';
-import {RootStackParamList} from '../utils/types';
 import Strings from '../utils/strings';
-
-type SplashScreenNavigationProp = StackNavigationProp<
-  RootStackParamList,
-  ScreenName.Splash
->;
+import {SplashScreenNavigationProp} from '../utils/types';
 
 interface Props {
   navigation: SplashScreenNavigationProp;
 }
 
 const SplashScreen: React.FC<Props> = ({navigation}) => {
-  // Create animated values for opacity and scale
   const opacity = useRef(new Animated.Value(0)).current;
   const scale = useRef(new Animated.Value(0.5)).current;
 
@@ -61,7 +54,7 @@ const SplashScreen: React.FC<Props> = ({navigation}) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#007AFF', // A professional blue background
+    backgroundColor: '#007AFF',
     justifyContent: 'center',
     alignItems: 'center',
   },
